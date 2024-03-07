@@ -33,7 +33,8 @@ RUN mkdir hacking \
 RUN git config --global user.email "lise_rannestad@hotmail.com" \
 	&& git config --global user.name "Lise Nilsen Rannestad" \
 	&& git config --global url."https://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:@github.com/".insteadOf "https://github.com" \
-	&& mkdir -p github.com/GITHUB-liserannestad/sem02v24
+	&& mkdir -p github.com/liserannestad/sem02v24
+
 USER root
 RUN curl -SL https://go.dev/dl/go1.21.7.linux-arm64.tar.gz \
 	| tar xvz -C /usr/local
